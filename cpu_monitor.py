@@ -6,10 +6,10 @@ import psutil
 BAR_WIDTH = 16          # width of each bar in pixels
 BAR_SPACING = 4         # space between bars
 BAR_HEIGHT = 120        # max bar height (like the OSX mini graph)
-UPDATE_MS = 200         # refresh interval in ms
+UPDATE_MS = 1000         # refresh interval in ms
 BG_COLOR = "#111111"
 BAR_BG_COLOR = "#222222"
-BAR_FG_COLOR = "#4af2ff"
+BAR_FG_COLOR = "#804aff"
 TEXT_COLOR = "#dddddd"
 # ---------------------------------------------------------------
 
