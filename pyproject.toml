@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpu-monitor"
+version = "1.0.0"
+description = "A graphical CPU usage monitor with heatmap and bar views."
+readme = "README.md"
+authors = [
+    { name = "John Furr" }
+]
+license = { text = "MIT" }
+
+keywords = ["cpu", "monitor", "tkinter", "heatmap", "system", "stats"]
+requires-python = ">=3.9"
+
+dependencies = [
+    "psutil>=5.9",
+]
+
+[project.scripts]
+cpu-monitor = "cpu_monitor.app:main"
